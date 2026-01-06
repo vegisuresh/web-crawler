@@ -1,0 +1,59 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.envrc/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs & runtime data
+# =========================
+*.log
+pages.txt
+data/
+output/
+
+# =========================
+# Test & coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Playwright (JS rendering)
+# =========================
+playwright/.cache/
+ms-playwright/
+
+# =========================
+# Docker
+# =========================
+*.pid
+
+# =========================
+# Secrets (VERY IMPORTANT)
+# =========================
+*.env
+*.key
+*.pem
+*.crt
+
+# =========================
+# Redis / local state
+# =========================
+dump.rdb
